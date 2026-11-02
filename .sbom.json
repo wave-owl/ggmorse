@@ -1,0 +1,98 @@
+{
+  "gitlinks": {
+    "examples/third-party/imgui/imgui": {
+      "repository": "ocornut/imgui",
+      "licenses": [
+        "LICENSE.txt"
+      ]
+    }
+  },
+  "vendored": [],
+  "models": [],
+  "external_libraries": [
+    {
+      "name": "Conditional source requirements declared by CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/ggmorse-from-file/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/ggmorse-from-file/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/ggmorse-gui/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/ggmorse-gui/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/ggmorse-to-file/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/ggmorse-to-file/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/malloc-count/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/malloc-count/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/third-party/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/third-party/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by examples/third-party/imgui/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "examples/third-party/imgui/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by src/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "src/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by tests/CMakeLists.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "tests/CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Threads",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "name": "Optional example SDL2/OpenGL",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "CMakeLists.txt"
+      ]
+    }
+  ]
+}

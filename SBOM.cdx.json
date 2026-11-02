@@ -1,0 +1,740 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "cmake:0c952336432060f2e09f1c3c048262fd2cfd2152233b3c6e8e343357350c3713",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "cmake/sdl2/FindSDL2.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Threads"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:21e44292ec398f2de70d248bbde407357b633aebd32929b93dea1220f3fea4f8",
+      "name": "OpenGL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "examples/third-party/imgui/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "OpenGL REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:3e8f2f0c110bea07998d23dd11b5c435f5872e58d792479aef182d6a931585ee",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "examples/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Threads REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:7e4bd5c9408763f43818c3f74f9ddacb63f7044d332b8dd1dcb74ac857dd0516",
+      "name": "SDL2",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "examples/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "SDL2"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:a881f28f58f91e4f888af0c6022391e5ded7099f5fef2aa0c13ceafb2105a982",
+      "name": "Git",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "cmake/GitVars.cmake"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "Git"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "cmake:d508afc021fa7c9af762e6a3be9cef897336c25df6f8a72da42461248a373e8d",
+      "name": "PkgConfig",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-requirement"
+        },
+        {
+          "name": "sbom:cmake-source",
+          "value": "examples/third-party/imgui/CMakeLists.txt"
+        },
+        {
+          "name": "sbom:cmake-command",
+          "value": "find_package"
+        },
+        {
+          "name": "sbom:cmake-declaration",
+          "value": "PkgConfig REQUIRED"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "ebff2c81fbaf921b",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "77c9360397ccc3525c7f0da39d0c233bc6408b79"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90d28cb771c3817b054d9018e3dd8b3f0853d028c33aa2c3793115b511f46f96"
+        }
+      ],
+      "name": "tracked-source/.github/workflows/build.yml",
+      "type": "file"
+    },
+    {
+      "bom-ref": "external-library:0",
+      "name": "Conditional source requirements declared by CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"CMakeLists.txt\", \"sha256\": \"f472075823d77946e52fe0c6e874145284d77470dcb616313f689390ddadaa53\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:1",
+      "name": "Conditional source requirements declared by examples/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/CMakeLists.txt\", \"sha256\": \"de390ffc4f9e8d05ba4e9384656e77a5b3e13f3acadaffefc02e3fa1e0327032\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:10",
+      "name": "Threads",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"CMakeLists.txt\", \"sha256\": \"f472075823d77946e52fe0c6e874145284d77470dcb616313f689390ddadaa53\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:11",
+      "name": "Optional example SDL2/OpenGL",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"CMakeLists.txt\", \"sha256\": \"f472075823d77946e52fe0c6e874145284d77470dcb616313f689390ddadaa53\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:2",
+      "name": "Conditional source requirements declared by examples/ggmorse-from-file/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/ggmorse-from-file/CMakeLists.txt\", \"sha256\": \"1e787b2fd945b947ec90b090b733c79bc65662ea090c91d9db2dcaf163fddb05\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:3",
+      "name": "Conditional source requirements declared by examples/ggmorse-gui/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/ggmorse-gui/CMakeLists.txt\", \"sha256\": \"6efdfdc7454a0bcf0798b92aedf816299536c220fd082dcb9851764e2c49638f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:4",
+      "name": "Conditional source requirements declared by examples/ggmorse-to-file/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/ggmorse-to-file/CMakeLists.txt\", \"sha256\": \"040512f8d803319f719a9c6729bf5193e9f89878e1da51c9d95808986b8cdc9b\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:5",
+      "name": "Conditional source requirements declared by examples/malloc-count/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/malloc-count/CMakeLists.txt\", \"sha256\": \"6de096788cb063bccc7d2d483e34e5e78813e1d4095d5f29575bb39181156bd9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:6",
+      "name": "Conditional source requirements declared by examples/third-party/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/third-party/CMakeLists.txt\", \"sha256\": \"beef24d67420b66838cdd432f530aa1525a3e9e6c609690ee4477b1d7564cfd2\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:7",
+      "name": "Conditional source requirements declared by examples/third-party/imgui/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"examples/third-party/imgui/CMakeLists.txt\", \"sha256\": \"6d1485128e7ae16a8cd51f7335f69f1b692a81c427fd95031803f47dc1f7fed4\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:8",
+      "name": "Conditional source requirements declared by src/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"src/CMakeLists.txt\", \"sha256\": \"629f0cafd6a981ca9f3ac248dcbe34a30535f4ef3f199a4f1cfc28272a53461d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:9",
+      "name": "Conditional source requirements declared by tests/CMakeLists.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"tests/CMakeLists.txt\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "git:https://github.com/ocornut/imgui@3f26a07ee1813cecaa87253436149e28fc11dc4e",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/ocornut/imgui/tree/3f26a07ee1813cecaa87253436149e28fc11dc4e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "License evidence; see declared files"
+          }
+        }
+      ],
+      "name": "ocornut/imgui",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "gitlink"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "3f26a07ee1813cecaa87253436149e28fc11dc4e"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "5b57c66e8a1b567856e09f6b6b2642c72f190347"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/ocornut/imgui"
+        },
+        {
+          "name": "sbom:license-evidence",
+          "value": "[{\"path\": \"LICENSE.txt\", \"sha256\": \"71aafd5e1c50cefd44f6975decfe8bbfa620cfded743b3cbb8c80088bdb46ccd\"}]"
+        },
+        {
+          "name": "sbom:license-resolution",
+          "value": "unresolved; manual review required"
+        }
+      ],
+      "type": "library",
+      "version": "3f26a07ee1813cecaa87253436149e28fc11dc4e"
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v1?package-id=f064eda596ea2513",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v1:*:*:*:*:*:*:*",
+      "name": "actions/checkout",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v1",
+      "type": "library",
+      "version": "v1"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "unknown",
+      "assemblies": [
+        "git:https://github.com/wave-owl/ggmorse@8fb433d6cd6a71940f51b5724663ec0c75bf0b62"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "cmake:0c952336432060f2e09f1c3c048262fd2cfd2152233b3c6e8e343357350c3713"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:21e44292ec398f2de70d248bbde407357b633aebd32929b93dea1220f3fea4f8"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:3e8f2f0c110bea07998d23dd11b5c435f5872e58d792479aef182d6a931585ee"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:7e4bd5c9408763f43818c3f74f9ddacb63f7044d332b8dd1dcb74ac857dd0516"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:a881f28f58f91e4f888af0c6022391e5ded7099f5fef2aa0c13ceafb2105a982"
+    },
+    {
+      "dependsOn": [],
+      "ref": "cmake:d508afc021fa7c9af762e6a3be9cef897336c25df6f8a72da42461248a373e8d"
+    },
+    {
+      "dependsOn": [],
+      "ref": "ebff2c81fbaf921b"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:10"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:11"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:7"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:8"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:9"
+    },
+    {
+      "dependsOn": [],
+      "ref": "git:https://github.com/ocornut/imgui@3f26a07ee1813cecaa87253436149e28fc11dc4e"
+    },
+    {
+      "dependsOn": [
+        "cmake:0c952336432060f2e09f1c3c048262fd2cfd2152233b3c6e8e343357350c3713",
+        "cmake:21e44292ec398f2de70d248bbde407357b633aebd32929b93dea1220f3fea4f8",
+        "cmake:3e8f2f0c110bea07998d23dd11b5c435f5872e58d792479aef182d6a931585ee",
+        "cmake:7e4bd5c9408763f43818c3f74f9ddacb63f7044d332b8dd1dcb74ac857dd0516",
+        "cmake:a881f28f58f91e4f888af0c6022391e5ded7099f5fef2aa0c13ceafb2105a982",
+        "cmake:d508afc021fa7c9af762e6a3be9cef897336c25df6f8a72da42461248a373e8d",
+        "ebff2c81fbaf921b",
+        "external-library:0",
+        "external-library:1",
+        "external-library:10",
+        "external-library:11",
+        "external-library:2",
+        "external-library:3",
+        "external-library:4",
+        "external-library:5",
+        "external-library:6",
+        "external-library:7",
+        "external-library:8",
+        "external-library:9",
+        "git:https://github.com/ocornut/imgui@3f26a07ee1813cecaa87253436149e28fc11dc4e",
+        "pkg:github/actions/checkout@v1?package-id=f064eda596ea2513"
+      ],
+      "ref": "git:https://github.com/wave-owl/ggmorse@8fb433d6cd6a71940f51b5724663ec0c75bf0b62"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/actions/checkout@v1?package-id=f064eda596ea2513"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "git:https://github.com/wave-owl/ggmorse@8fb433d6cd6a71940f51b5724663ec0c75bf0b62",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wave-owl/ggmorse/tree/8fb433d6cd6a71940f51b5724663ec0c75bf0b62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "License evidence; see declared files"
+          }
+        }
+      ],
+      "name": "wave-owl/ggmorse",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "source-root"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "8fb433d6cd6a71940f51b5724663ec0c75bf0b62"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "67cfffd000c523627de2ea37e2f8a0f23aff0360"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/wave-owl/ggmorse"
+        },
+        {
+          "name": "sbom:release-tags",
+          "value": "[]"
+        },
+        {
+          "name": "sbom:license-evidence",
+          "value": "[{\"path\": \"LICENSE\", \"sha256\": \"1f0a52b2ca90c54bf0a55915fbe6ab412a9c514b8ec2be71ca272be812d7d838\"}]"
+        },
+        {
+          "name": "sbom:license-resolution",
+          "value": "unresolved; manual review required"
+        },
+        {
+          "name": "sbom:snapshot",
+          "value": "true"
+        },
+        {
+          "name": "sbom:snapshot-source-commit",
+          "value": "8fb433d6cd6a71940f51b5724663ec0c75bf0b62"
+        },
+        {
+          "name": "sbom:snapshot-scope",
+          "value": "Initial immutable source snapshot, before the tooling commit; not a release report."
+        }
+      ],
+      "type": "application",
+      "version": "8fb433d6cd6a71940f51b5724663ec0c75bf0b62"
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source repository inventory only; completeness is UNKNOWN. Syft inventories tracked source/package manifests. Gitlinks and declared vendored/model evidence are inspected at immutable pins. CMake declarations are conditional requirements, not resolved installations. This is NOT proof of operating-system packages, static-link closure, build-time resolution, or the contents of release binaries."
+      },
+      {
+        "name": "sbom:generation-status",
+        "value": "success"
+      },
+      {
+        "name": "sbom:generation-errors",
+        "value": "[]"
+      }
+    ],
+    "timestamp": "2026-11-02T16:56:12.031435+00:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.55.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:adef29a2-52ea-45ff-b840-14fc50f90c71",
+  "specVersion": "1.6",
+  "version": 1
+}

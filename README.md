@@ -97,3 +97,9 @@ make
 [changelog]: ./CHANGELOG.md
 [changelog-badge]: https://img.shields.io/badge/changelog-ggmorse%20v0.1.0-dummy
 [license]: ./LICENSE
+
+## Source SBOM
+
+See [repository source SBOM report](SBOM.md). Release reports are generated automatically.
+
+The [source SBOM policy](SBOM-POLICY.md) describes automatic release artifacts.
